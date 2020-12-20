@@ -1,0 +1,9 @@
+{
+  "name": "gas-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.3.0"
+  }
+}
