@@ -5,3 +5,5 @@ dist
 .clasp.json
 
 .idea
+
+yarn-error.log
