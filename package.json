@@ -5,9 +5,12 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && webpack && cpx appsscript.json dist && rimraf dist/client.js",
-    "push": "yarn build && clasp push"
+    "push": "yarn build && clasp push",
+    "deploy": "yarn push && clasp deploy"
   },
-  "dependencies": {},
+  "dependencies": {
+    "preact": "^10.5.7"
+  },
   "devDependencies": {
     "@google/clasp": "^2.3.0",
     "@types/google-apps-script": "^1.0.20",

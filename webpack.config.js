@@ -32,7 +32,7 @@ const server = {
 
 const client = {
     entry: {
-        client: path.join(__dirname, 'src', 'client', 'client.ts')
+        client: path.join(__dirname, 'src', 'client', 'client.tsx')
     },
     output: {
         filename: '[name].js',
@@ -41,7 +41,7 @@ const client = {
     module: {
         rules: [
             {
-                test: /\.ts$/,
+                test: /\.(ts|tsx)$/,
                 use: 'ts-loader'
             }
         ]
